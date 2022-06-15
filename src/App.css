@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Imperial+Script&family=Island+Moments&family=Macondo&family=Moon+Dance&family=Oooh+Baby&family=Vujahday+Script&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo 2', cursive;;
+}
+
+/* Blogs Page */
+.blogs{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  margin: 5rem;
+  justify-content: space-between;
+}
+
+.card{
+  border: 1px solid black;
+  width: 46%;
+  margin: 12px 2px;
+  background-color: rgb(251, 251, 251);
+  padding: 5px 10px;
+  border-radius: 11px;
+}
+
+.title {
+  color: black;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 110, 221);
+  padding: 4px 11px;
+  border-radius: 5px;
+  margin: 5px 0;
+  float: right;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(0, 124, 248);
+}
+
+.category{
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.title:hover{
+  color: rgb(0, 110, 221)
+}
+
+.content{
+  margin: 4px 0;
+  font-size:x-large;
+}
+
+
+/* BlogPost Page */
+.blog{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  background-color: rgb(251, 251, 251);
+  padding: 10px 15px;
+  border-radius: 11px;
+}
+
+.blog>h2{
+  text-align: center;
+}
+
+.subheading{
+  margin-top: 20px;
+}
+
+/* Add a new post */
+
+.addpost{
+  width: 80vw;
+  margin: auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control{
+  font-size: 1.2rem;
+  margin: 12px 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.form-control:active, .form-control:focus{
+  border: 2px solid rgb(25, 121, 255);
+}

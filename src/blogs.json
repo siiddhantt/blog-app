@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Best summer foods to try!",
+        "likes": 7,
+        "categories": "Food",
+        "content": "Samudrapur MIDC, Maharashtra, India"
+    },
+    {
+        "id": 2,
+        "title": "Best phones under 20K in 2022",
+        "likes": 8,
+        "categories": "Technology",
+        "content": "Samudrapur MIDC, Maharashtra, India"
+    },
+    {
+        "id": 3,
+        "title": "Movies I watched in 2022",
+        "likes": 9,
+        "categories": "Movies",
+        "content": "It's that time of year again—where the weather is colder, the urge to leave the house is weaker, and our new planners are waiting to be filled with release dates for highly anticipated films. Whatever genre you love, from comedy to horror to documentaries, 2022 will be a fun year, as studios catching up on pandemic delays finally release the action films we've been waiting as long as two or three years for. \n The upcoming slate of action flicks is especially exciting, as several beloved franchises and star directors return with new installments of our favorite movies. From John Wick to Thor to Top Gun, here's your guide to what's sure to be the best action movies of 2022."
+    }
+]
