@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# BlogApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's built using React.js for the frontend and the backend is handled using Node.js and Express.
 
-## Available Scripts
 
-In the project directory, you can run:
+https://user-images.githubusercontent.com/47355538/173766856-67a6fbb7-9328-41c0-b58f-f954f5c7736b.mp4
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![2022-06-15_12-39](https://user-images.githubusercontent.com/47355538/173766988-bcbe045b-719c-43fc-862a-4b5aeaf78079.png)
+![2022-06-15_12-39_1](https://user-images.githubusercontent.com/47355538/173767029-5774cd00-2cab-4c08-9e55-04d114b16eaf.png)
+![2022-06-15_12-40](https://user-images.githubusercontent.com/47355538/173767049-f20204dc-5fb1-4ceb-9fa4-2c86706eda7a.png)
+![2022-06-15_12-40_1](https://user-images.githubusercontent.com/47355538/173767061-2e39b80d-0c65-478f-9361-7874554d8f00.png)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- UI consists of a horizontal menu and on click of menu items, respective content opens.
+- Fetches the data from the blog-app-backend to display all the blogs and their contents.
+- It fetches the title, description, content, image-link and number of likes of a blog/post from the backend.
+- Functionality to add new blogs/posts using the AddPost component.
+- Fully responsive.
+- MongoDB is used for the database.
 
-### `npm run build`
+## Frameworks used
+- React.js
+- Node.js
+- Express
+- Tailwind CSS
+- Material UI 
+- MongoDB as the database
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fork the repository and clone it.
+- Node.js should be installed on the system.
+- After cloning the repository run command `npm install`.
+- Start the app using `npm start` command.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Note : You need to run the backend too for the app to function properly. 
+- Backend can be found in the blog-app-backend repository.
+- Start the backend using `nodemon ./index.js'
